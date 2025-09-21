@@ -1,18 +1,26 @@
-import { useEffect } from "react";
-import { Routes, Route, Link, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Header from "./Header";
-import Recipes from "./Recipes";
-import Recipe from "./Recipe";
+import Home from "./Home";
+import NotFound from "./NotFound";
+import Decades from "./Decades";
+import Locomotive from "./Locomotive";
+import Footer from "./Footer";
 
 export default function App() {
   return (
     <>
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to="/beef" replace={true} />} />
-        <Route path=":category" element={<Recipes />} />
-        <Route path=":category/:recipeID" element={<Recipe />} />
+        <Route
+          path="/"
+          element={<Home title="Understanding Locomotives By Decade" />}
+        />
+        <Route path="/:decade" element={<Decades />} />
+        <Route path="/locomotive/:locomotiveID" element={<Locomotive />} />
+        <Route path="/404" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }

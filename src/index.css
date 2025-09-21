@@ -7,12 +7,11 @@ body {
 
 nav {
   display: flex;
-  gap: 14px;
   flex-wrap: wrap;
-  width: 80%;
-  max-width: 510px;
+  width: 100%;
   justify-content: center;
-  margin: 2rem auto 3rem;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 nav a {
@@ -21,14 +20,13 @@ nav a {
   color: #2d2d2d;
 }
 
-nav a:hover, nav a.active {
-  text-decoration: underline;
-  color: #cc49a0;
+.title {
+  text-decoration: none;
 }
 
 .container {
   width: 90%;
-  max-width: 1150px;
+  max-width: 1050px;
   margin: 1.1em auto;
 }
 
@@ -74,6 +72,7 @@ h1 {
 }
 
 h2 {
+  font-size: 2rem;
   margin-bottom: auto;
   line-height: 1.2;
   margin-top: 0;
@@ -101,7 +100,8 @@ h3 {
 
 p {
   color: #222;
-  font-size: 1em;
+  font-size: 1.25rem;
+  line-height: 1.5;
   margin-bottom: 0;
 }
 
@@ -141,7 +141,7 @@ label {
     display: flex;
     gap: 25px;
     flex-grow: 1;
-  }  
+  }
 }
 
 .recipe-instructions p {
@@ -150,8 +150,58 @@ label {
 }
 
 select {
+  width: 80%;
+  font-size: 1.25rem;
   padding: 0.35em;
-  margin-top: 1.35em;
+  margin-top: 0;
   border-color: #d1d1d1;
-  border-radius: 3px;
+  border-radius: 5px;
 }
+
+.not-found {
+  text-align: center;
+}
+
+#loco-img {
+  background: no-repeat center/cover url("locomotive-image.jpg");
+  width: 100%;
+  display: flex;
+  height: 625px;
+  padding-left: 40px;
+}
+
+#decades-container {
+  width: 150px;
+  height: 50px;
+  background-color: #ff3787;
+  border: 1px solid darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+#decades-container:hover {
+  background-color: #a31c52;
+  cursor: pointer;
+}
+
+.explanation-cards {
+  flex-direction: column;
+  text-align: center;
+}
+
+.paragraph {
+  margin: 40px;
+}
+
+/* {
+  background:no-repeat center/cover url("/chromaticpurpletrain.png");
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fill;
+  border-radius: 15px;
+} */

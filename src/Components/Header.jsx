@@ -1,24 +1,28 @@
-import { useState, useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
+const decades = [1960, 1970, 1980, 1990, 2000, 2010, 2020, 0];
 
 export default function Header() {
-  const [categories, setCategories] = useState([]);
-  
-  useEffect(() => {
-    fetch("https://www.themealdb.com/api/json/v1/1/categories.php")
-      .then((response) => response.json())
-      .then((data) => setCategories(data.categories))
-      .catch((error) => console.error('Error:', error));
-  }, []);
+  const navigate = useNavigate();
+
+  const handleClick = (event) => {
+    const decade = event.target.value;
+    console.log("decadeLink: ", event.target.value);
+    navigate(`/${decade}`); //change category route  to /decade route
+  };
 
   return (
     <div>
-      <h1>My Favorite Recipes</h1>
+      <div id="loco-img">
+        <Link to={`/`} className="title">
+          <h1>Locomotives of North America</h1>
+        </Link>
+      </div>
       <nav>
-        {categories.map((category) => (
-          <NavLink to={`/${category.strCategory.toLowerCase()}`} key={category.idCategory}>
-            {category.strCategory}
-          </NavLink>
+        {decades.map((decade) => (
+          <Link id="decades-container" key={decade} to={`/${decade}`}>
+            {decade}
+          </Link>
         ))}
       </nav>
     </div>
