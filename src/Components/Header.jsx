@@ -1,6 +1,17 @@
 import { Link, useNavigate } from "react-router-dom";
 
-const decades = [1960, 1970, 1980, 1990, 2000, 2010, 2020, 0];
+const decades = [
+  "1940s",
+  "1950s",
+  "1960s",
+  "1970s",
+  "1980s",
+  "1990s",
+  "2000s",
+  "2010s",
+  "2020s",
+  "Proposed",
+];
 
 export default function Header() {
   const navigate = useNavigate();
@@ -12,7 +23,7 @@ export default function Header() {
   };
 
   return (
-    <div>
+    <>
       <div id="loco-img">
         <Link to={`/`} className="title">
           <h1>Locomotives of North America</h1>
@@ -25,6 +36,6 @@ export default function Header() {
           </Link>
         ))}
       </nav>
-    </div>
+    </>
   );
 }

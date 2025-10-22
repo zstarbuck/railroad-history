@@ -3,14 +3,16 @@ import { Outlet, useParams, useNavigate } from "react-router-dom";
 import { locomotive_decades, explanation } from "../locomotives-object";
 
 const decadesList = [
-  "1960",
-  "1970",
-  "1980",
-  "1990",
-  "2000",
-  "2010",
-  "2020",
-  "0",
+  "1940s",
+  "1950s",
+  "1960s",
+  "1970s",
+  "1980s",
+  "1990s",
+  "2000s",
+  "2010s",
+  "2020s",
+  "Proposed",
 ];
 
 export default function Decades() {
@@ -33,7 +35,7 @@ export default function Decades() {
     <div className="explanation-cards">
       {explanationText && (
         <div className="decade-summary-card">
-          <h2>{decade}s Overview</h2>
+          <h2 className="overview">{decade} Overview</h2>
           <p>{explanationText}</p>
         </div>
       )}

@@ -4,11 +4,16 @@ export function LocomotiveCard({ data }) {
   return (
     <div className="card">
       <Link to={`/locomotive/${encodeURIComponent(data.model)}`}>
-        <div>
+        <div className="image-container">
           {data.imgLink ? (
-            <img src={data.imgLink} alt={data.model} title={data.model} />
+            <img
+              src={data.imgLink}
+              alt={data.model}
+              title={data.model}
+              className="fill-image"
+            />
           ) : (
-            <div>No Image Available</div>
+            <div className="placeholder">No Image Available</div>
           )}
         </div>
         <h2>{data.model}</h2>

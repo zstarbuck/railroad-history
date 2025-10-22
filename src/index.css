@@ -10,8 +10,6 @@ nav {
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 nav a {
@@ -22,6 +20,7 @@ nav a {
 
 .title {
   text-decoration: none;
+  padding-left: 40px;
 }
 
 .container {
@@ -38,7 +37,6 @@ nav a {
 
 .grid img {
   width: 100%;
-  margin-top: -20%;
   transition: transform 2.2s ease-in-out;
 }
 
@@ -47,13 +45,45 @@ nav a {
 }
 
 .card {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   background: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.locomotive h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px; /* fixed height for all cards */
+  position: relative;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+.fill-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills the container while maintaining aspect ratio */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  background-color: #ddd;
+  font-size: 0.9em;
 }
 
 .card div {
@@ -163,15 +193,14 @@ select {
 }
 
 #loco-img {
-  background: no-repeat center/cover url("locomotive-image.jpg");
+  background: no-repeat center/cover url("/locomotive-image.jpg");
   width: 100%;
   display: flex;
   height: 625px;
-  padding-left: 40px;
 }
 
 #decades-container {
-  width: 150px;
+  width: 120px;
   height: 50px;
   background-color: #ff3787;
   border: 1px solid darkgray;
@@ -189,11 +218,38 @@ select {
 
 .explanation-cards {
   flex-direction: column;
-  text-align: center;
 }
 
 .paragraph {
   margin: 40px;
+}
+
+.card {
+  width: 300px;
+  border: 5px solid lightgrey; /* Example border: 2px solid blue */
+  border-radius: 5px; /* Optional: adds rounded corners */
+  padding: 10px; /* Optional: adds space inside the border */
+}
+
+.card-img {
+  width: 100%;
+  height: 200px; /* fixed height for uniformity */
+  object-fit: cover; /* ensures the image fills the space without squishing */
+}
+
+.decade-summary-card {
+  padding-left: 156px;
+  padding-right: 156px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.limited-width {
+  max-width: 500px;
+}
+
+.overview {
+  text-align: center;
 }
 
 /* {
