@@ -12,7 +12,7 @@ export const locomotive_decades = [
   // 1940s
   [
     {
-      model: "EMD E7",
+      model: "EMD-E7",
       year: 1945,
       maker: "EMD",
       service: "Streamliner passenger fleets (ATSF, PRR, NYC, etc.)",
@@ -29,7 +29,7 @@ export const locomotive_decades = [
       imgLink: "/emd_e7.jpg",
     },
     {
-      model: "EMD F7",
+      model: "EMD-F7",
       year: 1949,
       maker: "EMD",
       service: "Freight and passenger/commuter (nationwide)",
@@ -49,7 +49,7 @@ export const locomotive_decades = [
       imgLink: "/emd_f7.jpg",
     },
     {
-      model: "EMD GP7",
+      model: "EMD-GP7",
       year: 1949,
       maker: "EMD",
       service: "Freight and passenger/commuter",
@@ -72,7 +72,7 @@ export const locomotive_decades = [
   // 1950s
   [
     {
-      model: "ALCO RS-3",
+      model: "ALCO-RS-3",
       year: 1950,
       maker: "ALCO",
       service: "Freight and passenger/commuter",
@@ -88,7 +88,7 @@ export const locomotive_decades = [
       imgLink: "/alco_rs3.jpg",
     },
     {
-      model: "Fairbanks-Morse H16-44",
+      model: "Fairbanks-Morse-H16-44",
       year: 1950,
       maker: "Fairbanks-Morse",
       service: "Freight and limited passenger/commuter",
@@ -104,7 +104,7 @@ export const locomotive_decades = [
       imgLink: "/fm_h16-44.jpeg",
     },
     {
-      model: "EMD GP9",
+      model: "EMD-GP9",
       year: 1954,
       maker: "EMD",
       service: "Freight and passenger/commuter (B&M, NYC, MBTA)",
@@ -120,7 +120,7 @@ export const locomotive_decades = [
       imgLink: "/emd_gp9.jpeg",
     },
     {
-      model: "EMD FL9",
+      model: "EMD-FL9",
       year: 1956,
       maker: "EMD",
       service: "New Haven, Penn Central, Metro-North, MBTA",
@@ -140,7 +140,7 @@ export const locomotive_decades = [
   // 1960s
   [
     {
-      model: "EMD SDP40",
+      model: "EMD-SDP40",
       year: 1966,
       maker: "EMD",
       service: "Great Northern, later Amtrak",
@@ -156,7 +156,7 @@ export const locomotive_decades = [
       imgLink: "/emd_sdp40.jpg",
     },
     {
-      model: "EMD GP40TC",
+      model: "EMD-GP40TC",
       year: 1966,
       maker: "EMD (for GO Transit)",
       service: "GO Transit, later Amtrak",
@@ -201,7 +201,7 @@ export const locomotive_decades = [
   // 1970s
   [
     {
-      model: "GE P30CH",
+      model: "GE-P30CH",
       year: 1975,
       maker: "GE",
       service: "Amtrak",
@@ -218,7 +218,7 @@ export const locomotive_decades = [
       imgLink: "/p30ch.jpg",
     },
     {
-      model: "EMD SDP40F",
+      model: "EMD-SDP40F",
       year: 1973,
       maker: "EMD",
       service: "Amtrak",
@@ -238,7 +238,7 @@ export const locomotive_decades = [
       imgLink: "/emd_sdp40f.jpg",
     },
     {
-      model: "EMD F40PH",
+      model: "EMD-F40PH",
       year: 1976,
       maker: "EMD",
       service: "Amtrak, MBTA, commuter agencies",
@@ -263,7 +263,7 @@ export const locomotive_decades = [
       imgLink: "/f40ph.jpg",
     },
     {
-      model: "EMD FP10",
+      model: "EMD-FP10",
       year: 1978,
       maker: "Morrison-Knudsen (rebuilt from F7/F9s)",
       service: "MBTA",
@@ -285,7 +285,7 @@ export const locomotive_decades = [
   // 1980s
   [
     {
-      model: "EMD AEM-7",
+      model: "EMD-AEM-7",
       year: 1980,
       maker: "EMD/ASEA",
       service: "Amtrak",
@@ -304,7 +304,7 @@ export const locomotive_decades = [
       imgLink: "/aem7.jpg",
     },
     {
-      model: "EMD F59PH",
+      model: "EMD-F59PH",
       year: 1988,
       maker: "EMD",
       service: "GO Transit, later Metrolink, NCDOT, TRE, Metra",
@@ -331,7 +331,7 @@ export const locomotive_decades = [
       imgLink: "/f59ph.jpg",
     },
     {
-      model: "GE E60",
+      model: "GE-E60",
       year: 1983,
       maker: "GE Transportation",
       service: "Amtrak",
@@ -373,7 +373,7 @@ export const locomotive_decades = [
   // 1990s
   [
     {
-      model: "GE Dash 8-32BWH",
+      model: "GE-Dash-8-32BWH",
       year: 1991,
       maker: "GE",
       service: "Amtrak",
@@ -395,7 +395,7 @@ export const locomotive_decades = [
       imgLink: "/dash8bwh.jpg",
     },
     {
-      model: "GE P42DC Genesis",
+      model: "GE-P42DC-Genesis",
       year: 1993,
       maker: "GE",
       service: "Amtrak",
@@ -443,7 +443,7 @@ export const locomotive_decades = [
       imgLink: "/f59phi.jpg",
     },
     {
-      model: "EMD DE30AC/DM30AC",
+      model: "EMD-DE30AC/DM30AC",
       year: 1997,
       maker: "EMD",
       service: "LIRR",
@@ -465,7 +465,7 @@ export const locomotive_decades = [
       imgLink: "/de30ac.jpeg",
     },
     {
-      model: "EMD GP40MC",
+      model: "EMD-GP40MC",
       year: 1997,
       maker: "EMD (rebuilt by Morrison-Knudsen)",
       service: "MBTA",
@@ -482,7 +482,7 @@ export const locomotive_decades = [
     },
 
     {
-      model: "Talgo VI",
+      model: "Talgo-VI",
       year: 1998,
       maker: "Talgo (Spain/US assembly)",
       service: "Amtrak Cascades",
@@ -505,7 +505,7 @@ export const locomotive_decades = [
   // 2000s
   [
     {
-      model: "Bombardier HHP-8",
+      model: "Bombardier-HHP-8",
       year: 2001,
       maker: "Bombardier / Alstom",
       service: "Amtrak, MARC",
@@ -523,7 +523,7 @@ export const locomotive_decades = [
       imgLink: "/hhp8.jpg",
     },
     {
-      model: "Acela Express",
+      model: "Acela-Express",
       year: 2000,
       maker: "Bombardier / Alstom",
       service: "Amtrak",
@@ -566,7 +566,7 @@ export const locomotive_decades = [
   // 2010s
   [
     {
-      model: "Brookville BL36PH",
+      model: "Brookville-BL36PH",
       year: 2011,
       maker: "Brookville",
       service: "FEC/All Aboard Florida",
@@ -581,7 +581,7 @@ export const locomotive_decades = [
       imgLink: "/bl36ph.jpg",
     },
     {
-      model: "MPI HSP46",
+      model: "MPI-HSP46",
       year: 2014,
       maker: "MotivePower / GE",
       service: "MBTA",
@@ -596,7 +596,7 @@ export const locomotive_decades = [
       imgLink: "/mpi_hsp46.jpeg",
     },
     {
-      model: "Siemens ACS-64",
+      model: "Siemens-ACS-64",
       year: 2014,
       maker: "Siemens",
       service: "Amtrak, SEPTA",
@@ -629,7 +629,7 @@ export const locomotive_decades = [
       imgLink: "/alp45dp.jpg",
     },
     {
-      model: "Nippon Sharyo DMU",
+      model: "Nippon-Sharyo-DMU",
       year: 2016,
       maker: "Nippon Sharyo",
       service: "SMART, TEXRail, Union Pearson Express",
@@ -646,7 +646,7 @@ export const locomotive_decades = [
       imgLink: "/nippon_sharyo_dmu.jpg",
     },
     {
-      model: "Siemens SC-44 Charger",
+      model: "Siemens-SC-44-Charger",
       year: 2016,
       maker: "Siemens",
       service: "State Corridors",
@@ -666,7 +666,7 @@ export const locomotive_decades = [
       imgLink: "/sc44.jpg",
     },
     {
-      model: "EMD F125",
+      model: "EMD-F125",
       year: "2015–2019",
       maker: "Progress Rail (EMD)",
       service: "Metrolink (Los Angeles)",
@@ -690,7 +690,7 @@ export const locomotive_decades = [
       imgLink: "/f125.jpg",
     },
     {
-      model: "Stadler KISS (Caltrain EMU)",
+      model: "Stadler-KISS-EMU",
       year: 2019,
       maker: "Stadler Rail",
       service: "Caltrain",
@@ -711,7 +711,7 @@ export const locomotive_decades = [
   // 2020s
   [
     {
-      model: "Siemens ALC-42 Charger",
+      model: "Siemens-ALC-42-Charger",
       year: 2021,
       maker: "Siemens",
       service: "Amtrak",
@@ -728,7 +728,7 @@ export const locomotive_decades = [
     },
     ,
     {
-      model: "EMD SD70MACH",
+      model: "EM-SD70MACH",
       year: 2021,
       maker: "Progress Rail (rebuilt from EMD SD70MAC)",
       service: "Metra (Chicago)",
@@ -755,7 +755,7 @@ export const locomotive_decades = [
       imgLink: "/sd70mach_metra.jpeg",
     },
     {
-      model: "Amtrak Avelia Liberty",
+      model: "Amtrak-Avelia-Liberty",
       year: 2021,
       maker: "Alstom",
       service: "Amtrak (NEC)",
@@ -770,7 +770,7 @@ export const locomotive_decades = [
       imgLink: "/avelia_liberty.jpg",
     },
     {
-      model: "Talgo Series 8",
+      model: "Talgo-Series-8",
       year: 2013,
       maker: "Talgo",
       service: "Amtrak Cascades, Wisconsin DOT (cancelled order)",
@@ -787,7 +787,7 @@ export const locomotive_decades = [
 
   [
     {
-      model: "F59PHI Metrolink Cabcar",
+      model: "F59PHI-Metrolink-Cabcar",
       year: "proposed",
       description:
         "This locomotive is a merger of an F59phi locomotive and a Hyundai rotem cab car",
@@ -800,7 +800,7 @@ export const locomotive_decades = [
     },
 
     {
-      model: "F59PH NCDOT Cabcar",
+      model: "F59PH-NCDOT-Cabcar",
       year: "proposed",
       error: "the window should be a 3 piece set instead of 2 pieces",
       description:
@@ -812,7 +812,7 @@ export const locomotive_decades = [
       imgLink: "/ncdotf59phcabcar.png",
     },
     {
-      model: "F40PH GOTransit Cabcar",
+      model: "F40PH-GOTransit-Cabcar",
       year: "proposed",
       description:
         "This locomotive is a merger of an F40ph locomotive and a Bombardier cab car",
@@ -825,7 +825,7 @@ export const locomotive_decades = [
     },
 
     {
-      model: "F40PH Peach Flavored Livery",
+      model: "F40PH-Peach-Flavored-Livery",
       year: "proposed",
       description:
         "This locomotive is a design that I developed for a potential commuter rail service",
@@ -837,7 +837,7 @@ export const locomotive_decades = [
       imgLink: "/Peachliveryf40.png",
     },
     {
-      model: "NCDOT F40PH Cabcar",
+      model: "NCDOT-F40PH-Cabcar",
       year: "proposed",
       description:
         "This cabcar is a multilevel with the nose of an f40ph locomotive",
@@ -850,7 +850,7 @@ export const locomotive_decades = [
       imgLink: "/NCDOTf40cabcar.png",
     },
     {
-      model: "VRE MPX Cabcar Cabcar",
+      model: "VRE-MPX-Cabcar-Cabcar",
       year: "proposed",
       description:
         "This cabcar is a gallery car with the nose of an MP36 locomotive",
@@ -862,7 +862,7 @@ export const locomotive_decades = [
       imgLink: "/VREmpxcabcar.png",
     },
     {
-      model: "Rail Runner F59PHI cabcar",
+      model: "Rail-Runner-F59PHI-cabcar",
       year: "proposed",
       description:
         "This cabcar has the body of a Bombardier car with an attempt at having the nose of an f59phi",
@@ -874,7 +874,7 @@ export const locomotive_decades = [
       imgLink: "/RailRunnerf59phicabcar.png",
     },
     {
-      model: "Tri Rail Brookville Cabcar",
+      model: "Tri-Rail-Brookville-Cabcar",
       year: "proposed",
       description:
         "This cabcar is a hyundair rotem car with the nose of an BL36 Brookville locomotive",
@@ -886,7 +886,7 @@ export const locomotive_decades = [
       imgLink: "/TriRailBrookvillecabcar.png",
     },
     {
-      model: "Sounder MPX  Cabcar",
+      model: "Sounder-MPX-Cabcar",
       year: "proposed",
       description:
         "This cabcar is a Bombardier car with the nose of an MP36 locomotive",
@@ -898,7 +898,7 @@ export const locomotive_decades = [
       imgLink: "/Soundermpxcabcar.png",
     },
     {
-      model: "Sounder f59phi Cabcar",
+      model: "Sounder-f59phi-Cabcar",
       year: "proposed",
       description:
         "This cabcar is a Bombardier car with the nose of an f59phi locomotive",
@@ -911,7 +911,7 @@ export const locomotive_decades = [
       imgLink: "/Sounderf59phicabcar.png",
     },
     {
-      model: "TRE F40PH Cabcar",
+      model: "TREF40PHCabcar",
       year: "proposed",
       description:
         "This cabcar is a Bombardier car with the nose of an f40 locomotive",
@@ -923,7 +923,7 @@ export const locomotive_decades = [
       imgLink: "/TREf40cabcar.png",
     },
     {
-      model: "VIA Rail Genesis Engine Cabcar",
+      model: "VIA-Rail-Genesis-Engine-Cabcar",
       year: "proposed",
       description:
         "This cabcar is a Bombardier car with the nose of an GE Genesis Engine locomotive",
@@ -935,7 +935,7 @@ export const locomotive_decades = [
       imgLink: "/VIAGenesiscabcar.png",
     },
     {
-      model: "NJ  Transit Cabcar",
+      model: "NJ-Transit-Cabcar",
       year: "proposed",
       description:
         "This cabcar is a multileve car with the nose of a gp40 locomotive",
@@ -947,7 +947,7 @@ export const locomotive_decades = [
       imgLink: "/NJTransitgp40cabcar.png",
     },
     {
-      model: "MARC F40 Cabcar Cabcar",
+      model: "MARC-F40-Cabcar",
       year: "proposed",
       description:
         "This cabcar is a Bombardier car with the nose of an GE Genesis Engine locomotive",
