@@ -244,6 +244,19 @@ select {
   padding-bottom: 30px;
 }
 
+@media (max-width: 640px) {
+  .decade-summary-card {
+    padding: 0; /* remove padding on mobile */
+  }
+}
+
+@media (max-width: 640px) {
+  .loco-img {
+    width: 100vw; /* makes it fill the entire viewport width */
+    margin: 0 auto;
+  }
+}
+
 .limited-width {
   max-width: 500px;
 }
