@@ -5,11 +5,13 @@ import NotFound from "./NotFound";
 import Decades from "./Decades";
 import Locomotive from "./Locomotive";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 
 export default function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"
