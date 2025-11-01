@@ -192,13 +192,6 @@ select {
   text-align: center;
 }
 
-#loco-img {
-  background: no-repeat center/cover url("/locomotive-image.jpg");
-  width: 100%;
-  display: flex;
-  height: 625px;
-}
-
 #decades-container {
   width: 120px;
   height: 50px;
@@ -246,14 +239,22 @@ select {
 
 @media (max-width: 640px) {
   .decade-summary-card {
-    padding: 0; /* remove padding on mobile */
+    padding-left: 20px; /* remove padding on mobile */
+    padding-right: 20px;
   }
 }
 
+#loco-img {
+  background: no-repeat center/cover url("/locomotive-image.jpg");
+  width: 100%;
+  display: flex;
+  height: 625px;
+}
+
 @media (max-width: 640px) {
-  .loco-img {
-    width: 100vw; /* makes it fill the entire viewport width */
-    margin: 0 auto;
+  #loco-img {
+    width: 100vw;
+    background: no-repeat left/cover url("/locomotive-image-mobile.jpg");
   }
 }
 

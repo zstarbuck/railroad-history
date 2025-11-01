@@ -17,6 +17,7 @@ export const locomotive_decades = [
       maker: "EMD",
       service: "Streamliner passenger fleets (ATSF, PRR, NYC, etc.)",
       links: ["https://youtu.be/yrpXc-lo0Uw?si=uAs03Ix361LZn37g"],
+      linktitles: ["EMD E7 Top #7 Facts"],
       sites: ["https://en.wikipedia.org/wiki/EMD_E7"],
       origins:
         "Introduced in 1945, the E7 was one of EMD’s most successful early passenger cab units, designed for postwar streamliner service.",
@@ -37,6 +38,10 @@ export const locomotive_decades = [
         "https://youtu.be/hCJD-DmK70w?si=Q-EoAcPHjCEoGcxB",
         "https://youtu.be/XdxX4iX0TvI?si=DpeR_3jYgD1snhp_",
       ],
+      linktitles: [
+        "History of American Trains | EMD F-7",
+        "F-Series Locomotives: The Diesel Beasts That Replaced Steam",
+      ],
       sites: ["https://en.wikipedia.org/wiki/EMD_F7"],
       origins:
         "The F7 became one of the most iconic freight/passenger locomotives in North America, evolving from earlier F units.",
@@ -54,6 +59,7 @@ export const locomotive_decades = [
       maker: "EMD",
       service: "Freight and passenger/commuter",
       links: ["https://youtu.be/qQJzcX1fg1s?si=wKtqzfxuDLpxOBKl"],
+      linktitles: ["Engines Of North America: The EMD GP7"],
       sites: ["https://en.wikipedia.org/wiki/EMD_GP7"],
       origins:
         "One of EMD’s first road switchers, the GP7 was versatile for freight and passenger use when steam-generator equipped.",
@@ -77,6 +83,7 @@ export const locomotive_decades = [
       maker: "ALCO",
       service: "Freight and passenger/commuter",
       links: ["https://youtu.be/fbebYvJwmxg?si=XpoKVkbc1YFcqYlW"],
+      linktitles: ["THE HISTORY OF ALCOS ROAD SWITCHERS PART 1, THE RS 1 & 2"],
       sites: ["https://en.wikipedia.org/wiki/ALCO_RS-3"],
       origins:
         "The RS-3 was ALCO’s most popular road switcher, competing directly with the GP7 and often passenger-equipped.",
@@ -93,6 +100,7 @@ export const locomotive_decades = [
       maker: "Fairbanks-Morse",
       service: "Freight and limited passenger/commuter",
       links: ["https://youtu.be/AZfcQhFTmf4?si=6EFWrI9MQK9zZ7EW"],
+      linktitles: ["Engines of North America: The FM H16-44"],
       sites: ["https://en.wikipedia.org/wiki/Fairbanks-Morse_H-16-44"],
       origins:
         "FM’s 1,600-hp road switcher; some units were steam-generator equipped for commuter service.",
@@ -109,6 +117,7 @@ export const locomotive_decades = [
       maker: "EMD",
       service: "Freight and passenger/commuter (B&M, NYC, MBTA)",
       links: ["https://youtu.be/HxfmC42Rg1s?si=Nn_N6rzCIvgHIKHa"],
+      linktitles: ["Minuteman Diesels Episode 4: The GP9s"],
       sites: ["https://en.wikipedia.org/wiki/EMD_GP9"],
       origins:
         "Follow-up to the GP7, offering 1,750 hp and updated systems. Many were passenger-equipped with steam generators.",
@@ -125,6 +134,7 @@ export const locomotive_decades = [
       maker: "EMD",
       service: "New Haven, Penn Central, Metro-North, MBTA",
       links: ["https://youtu.be/VT5J4QcE2ZE?si=lDv7Jhw3qsh8fJXu"],
+      linktitles: ["Engines of Metro North EMD FL9"],
       sites: ["https://en.wikipedia.org/wiki/EMD_FL9"],
       origins:
         "Dual-mode locomotive capable of running on diesel or third-rail electric power, designed for service into New York’s Grand Central Terminal.",
@@ -145,6 +155,7 @@ export const locomotive_decades = [
       maker: "EMD",
       service: "Great Northern, later Amtrak",
       links: ["https://youtu.be/o-JiNTw-MjU?si=9Gxv6eGvZ0O5FvVb"],
+      linktitles: ["21 Interesting Facts About EMD SD40-Series Diesels"],
       sites: ["https://en.wikipedia.org/wiki/EMD_SDP40"],
       origins:
         "Passenger variant of the SD40 with a steam generator, intended for long-distance service.",
@@ -166,6 +177,12 @@ export const locomotive_decades = [
         "https://youtu.be/_qHxmAOyYQk?si=6lyFDUOpZMz43xlm",
         "https://youtu.be/ASYZRfw2aec?si=v5OqHIduqrEeyOJk",
       ],
+      linktitles: [
+        "Engines of Amtrak - EMD GP40TC",
+        "Engines of GO Transit: GP40TC",
+        "Engines of GO Transit - GP40TC",
+        "Retired Amtrak Power: EMD GP40TC",
+      ],
       sites: ["https://en.wikipedia.org/wiki/EMD_GP40TC"],
       origins:
         "Passenger variant of the GP40 with extended frame and HEP gear, built for Toronto’s GO Transit startup.",
@@ -184,6 +201,10 @@ export const locomotive_decades = [
       links: [
         "https://youtu.be/0gLnSU6sLes?si=pG6a7KI0JQjaz4Br",
         "https://www.youtube.com/watch?v=b2_mShUZ7No",
+      ],
+      linktitles: [
+        "History of the General Electric U30CG Locomotives",
+        "GE U30CG Top #11 Facts",
       ],
       sites: ["https://en.wikipedia.org/wiki/GE_U30CG"],
       origins:
@@ -206,6 +227,7 @@ export const locomotive_decades = [
       maker: "GE",
       service: "Amtrak",
       links: ["https://youtu.be/zLwM-CREqFY?si=BR5NowtgV2_GuFNW"],
+      linktitles: ["Engines of Amtrak - GE P30CH"],
       sites: ["https://en.wikipedia.org/wiki/GE_P30CH"],
       origins:
         "Dubbed 'Pooches,' these were GE’s passenger derivative of the U30C, delivered to Amtrak with steam generators.",
@@ -226,6 +248,11 @@ export const locomotive_decades = [
         "https://www.youtube.com/watch?v=K75TM2JKxdc&t=299s",
         "https://youtu.be/5KIyCikrmPY?si=l75JilD7T7rz38tw",
         "https://youtu.be/9CanoytG9kU?si=yjvOj_hDDBWKVisf",
+      ],
+      linktitles: [
+        "Engines of Amtrak - EMD SDP40F",
+        "Amtrak's Very First Locomotive - The SDP40F - Brief History - Early 1970s",
+        "Railroad Fleet History #1: Amtrak SDP40F (1973-1984)",
       ],
       sites: ["https://en.wikipedia.org/wiki/EMD_SDP40F"],
       origins:
@@ -251,6 +278,15 @@ export const locomotive_decades = [
         "https://youtu.be/s4ZH-RLizM0?si=Ow17vq2hkQR-AOTT",
         "https://youtu.be/fgfsGb6vuA4?si=dU_H-YkYzlox59Yt",
       ],
+      linktitles: [
+        "Engines of Amtrak - EMD F40PH",
+        "Amtrak F40PH Locomotives - Where are they now?",
+        "Metra's Iconic F40 Locomotives",
+        "F40PH Diesel Electric Locomotive - Train Talk: Ep. 2",
+        "The F40PH Locomotive",
+        "Engines of GO Transit: F40PH",
+        "Engines of Metrolink: SCAX 800 (EMD F40PH)",
+      ],
       sites: ["https://en.wikipedia.org/wiki/EMD_F40PH"],
       origins:
         "Developed for Amtrak as a standardized HEP passenger locomotive; quickly became a commuter favorite.",
@@ -270,6 +306,10 @@ export const locomotive_decades = [
       links: [
         "https://youtu.be/W1wYp4kakJE?si=7oCpJxlckDnJUPAn",
         "https://youtu.be/-KO2eSTcIxk?si=pqzVYIa1qAFZ2lSh",
+      ],
+      linktitles: [
+        "Engines of Metro North EMD FP10",
+        "Engines Of The MBTA // Episode 01 // EMD FP1",
       ],
       sites: ["https://en.wikipedia.org/wiki/EMD_FP10"],
       origins:
@@ -292,6 +332,10 @@ export const locomotive_decades = [
       links: [
         "https://youtu.be/7hU9lZ424FY?si=Byt7hb0Ydfx11Vlu",
         "https://youtu.be/ghy8yxgvljY?si=uVcIB7UmCmMbc0dX",
+      ],
+      linktitles: [
+        "Engines of Amtrak - EMD AEM-7 [REMAKE]",
+        "Engines of Marc Episode 1: EMD AEM-7",
       ],
       sites: ["https://en.wikipedia.org/wiki/EMD_AEM-7"],
       origins:
@@ -318,6 +362,16 @@ export const locomotive_decades = [
         "https://youtu.be/BrLVaTnxk-w?si=MvbCA-a9Dfrru8O3",
         "https://youtu.be/aKEDZ6q_fyE?si=A09g374xxwZo-8iE",
       ],
+      linktitles: [
+        "Engines of Metrolink: EMD F59PH",
+        "Engines of GO Transit: F59PH",
+        "History of the F59PH & F59PHI",
+        "F59PHI Locomotive: Train Talk Ep.15",
+        "Engines of West Coast Express - F59PH (With Captions!)",
+        "Engines of Metrolink the f59ph (100k views special)",
+        "GO Transit F59PH Locomotives",
+        "Engines of Amtrak - EMD F59PHI",
+      ],
       sites: ["https://en.wikipedia.org/wiki/EMD_F59PH"],
       origins:
         "Passenger-optimized variant of the GP59 with a 12-710 prime mover and separate HEP generator, designed for commuter agencies.",
@@ -336,6 +390,7 @@ export const locomotive_decades = [
       maker: "GE Transportation",
       service: "Amtrak",
       links: ["https://youtu.be/8cFZRwSxrJs?si=9h7C71QR7FRxJf_d"],
+      linktitles: ["Engines of Amtrak - GE E60 [REMAKE]"],
       sites: ["https://en.wikipedia.org/wiki/GE_E60"],
       origins:
         "Electric passenger locomotive derived from GE’s freight design, intended for high-speed NEC use.",
@@ -352,6 +407,7 @@ export const locomotive_decades = [
       maker: "Bombardier / MLW",
       service: "VIA Rail (Canada)",
       links: ["https://youtu.be/9Da28enkJAU?si=0Rypyu36Ab8IAMbJ"],
+      linktitles: ["Engines of VIA--The BBD LRC--Episode 8"],
       sites: [
         // you can add YouTube or other media links if you have them
         "https://en.wikipedia.org/wiki/LRC_(train)",
@@ -383,6 +439,12 @@ export const locomotive_decades = [
         "https://youtu.be/V6zX4Y0t_Bs?si=6N3_O0KaNW0cyFNh",
         "https://youtu.be/YUtI1KUDvYY?si=2e-NK8WxDbTb6gEp",
       ],
+      linktitles: [
+        "GE Dash-8 Locomotive: Train Talk Ep. 33",
+        "Amtrak Dash-8 Locomotives",
+        "Engines of BNSF: GE Dash 8",
+        "Engines of Amtrak - GE P32-8BWH [REMAKE]",
+      ],
       sites: ["https://en.wikipedia.org/wiki/GE_Dash_8_Series"],
       origins:
         "Passenger version of the Dash 8 freight design, built with HEP and geared for 100mph service.",
@@ -404,6 +466,12 @@ export const locomotive_decades = [
         "https://youtu.be/s790hvoMbtM?si=hX5LX11MgIwtvqZQ",
         "https://youtu.be/xf-HlAZbAgY?si=xAvNaHh5jaAl8ftI",
         "https://youtu.be/FIIi77sBgds?si=ktQ1KoV2PI5s9cBR",
+      ],
+      linktitles: [
+        "Engines of Amtrak - GE Genesis [REMAKE]",
+        "GE Genesis Locomotives: Train Talk Ep. 22",
+        "Engines Of North America: The GE P42DC",
+        "[JUST A PREVIEW] Engines of VIA--Preview P42DC",
       ],
       sites: ["https://en.wikipedia.org/wiki/GE_Genesis"],
       origins:
@@ -429,6 +497,13 @@ export const locomotive_decades = [
         "https://youtu.be/Q813fMmF3Mc?si=bHu-4JJSwLZY5Xds",
         "https://youtu.be/FifRPr-QxsY?si=jn0H6BITdGkQd1rG",
       ],
+      linktitles: [
+        "Engines of Amtrak - EMD F59PHI",
+        "F59PHI Locomotive: Train Talk Ep.15",
+        "Engines of Metrolink: EMD F59PHI",
+        "The Rolling Stock of California! Ep1 - The F59PHI",
+        "Metra Amtrak F59PHI Chicago Commuter Locomotives",
+      ],
       sites: ["https://en.wikipedia.org/wiki/EMD_F59PHI"],
       origins:
         "Introduced in 1994, the F59PHI was a streamlined, fully enclosed evolution of the F59PH designed for state-supported corridor and commuter services. Amtrak California was the launch customer, deploying the units on the San Joaquin and Capitol Corridor. Operators like Amtrak Cascades, West Coast Express, Metrolink, and Sound Transit also acquired them.",
@@ -453,6 +528,12 @@ export const locomotive_decades = [
         "https://youtu.be/AdJd-QCBQwU?si=-_aEY6UWUm_sGicz",
         "https://youtu.be/z8W6ds6G8BE?si=v6f7qSeqT0idSkaf",
       ],
+      linktitles: [
+        "Engines Of The Long Island Railroad- EMD DE30AC/DM30AC",
+        "Engines Of The Long Island Railroad - The EMD DE/DM30AC",
+        "TrainTalk: LIRR EMD DE30AC & DM30AC",
+        "The History of the Long Island railroad DE30AC",
+      ],
       sites: ["https://en.wikipedia.org/wiki/EMD_DE30AC_and_DM30AC"],
       origins:
         "Dual-mode diesel/electric locomotives built for Long Island Rail Road, capable of Penn Station access.",
@@ -470,6 +551,7 @@ export const locomotive_decades = [
       maker: "EMD (rebuilt by Morrison-Knudsen)",
       service: "MBTA",
       links: ["https://youtu.be/iYsfRH6c514?si=Ay6I7yTJFrhupNXZ"],
+      linktitles: ["Engines Of The MBTA // Episode 02 // GMD GP40MC"],
       sites: ["https://en.wikipedia.org/wiki/EMD_GP40MC"],
       origins:
         "Rebuilt GP40 freight units modified with HEP and cabs for MBTA commuter use.",
@@ -489,6 +571,10 @@ export const locomotive_decades = [
       links: [
         "https://youtu.be/SVKqbsYbGEU?si=WMwPWACRtTuoc5Gp",
         "https://youtu.be/NwwdYkTWl8A?si=xgjPyJsAu0fjV91B",
+      ],
+      linktitles: [
+        "Amtrak Talgo Trains of the Northwest",
+        "Farewell to the Talgo 6 Sets: A Chase from Seattle to Portland",
       ],
       sites: ["https://en.wikipedia.org/wiki/Talgo_(train)#Series_VI"],
       origins:
@@ -513,6 +599,10 @@ export const locomotive_decades = [
         "https://youtu.be/D3wPb4f5M2U?si=V3bIDikJ_pnqQAmQ",
         "https://youtu.be/crFAjw6KAqs?si=YBlwhWbz9oJWq_Uq",
       ],
+      linktitles: [
+        "Engines of Amtrak - HHP-8 [REMAKE]",
+        "Engines of Marc Episode 2: Bombardier & Alstom HHP-8",
+      ],
       sites: ["https://en.wikipedia.org/wiki/HHP-8"],
       origins:
         "Electric passenger locomotive based on Acela technology, built for Amtrak and MARC.",
@@ -528,6 +618,7 @@ export const locomotive_decades = [
       maker: "Bombardier / Alstom",
       service: "Amtrak",
       links: ["https://youtu.be/SVcRmo3lisg?si=zujS3DWi7Z4Bd9ih"],
+      linktitles: ["Engines of Amtrak - Acela Express"],
       sites: ["https://en.wikipedia.org/wiki/Acela"],
       origins: "High-speed tilting trainsets designed for Amtrak’s NEC.",
       serviceLife: "Flagship NEC service from 2000–2024 (in transition).",
@@ -547,6 +638,13 @@ export const locomotive_decades = [
         "https://youtu.be/JMtLV-q6V0M?si=0rlo2qL_MmobN1YH",
         "https://youtu.be/EkjYCmI_1ls?si=-m9m0g7EVgO7p-BA",
         "https://youtu.be/sUSNlrkFFO8?si=39orYyyazIWCd0tk",
+      ],
+      linktitles: [
+        "Engines of MBTA - MPI MP36-3C",
+        "Engines of Metrolink: MPI MP36PH-3C",
+        "MP36PH Locomotive Series: Train Talk Ep. 30",
+        "Engines of MARC | MP36PH-3C",
+        "Engines of GO Transit: MP40PH-3C",
       ],
       sites: ["https://en.wikipedia.org/wiki/MPI_MPXpress"],
       origins:
@@ -571,6 +669,9 @@ export const locomotive_decades = [
       maker: "Brookville",
       service: "FEC/All Aboard Florida",
       links: ["https://youtu.be/PKYHHwxRwp8?si=cybexyxyL9Vvs86U"],
+      linktitles: [
+        "Brookville's Freight & Passenger Locomotives | Brookville Equipment Corporation",
+      ],
       sites: ["https://en.wikipedia.org/wiki/Brookville_BL36PH"],
       origins:
         "Brookville’s entry into passenger market, Tier 3-compliant, sold to Tri-Rail and FEC/All Aboard Florida.",
@@ -586,6 +687,7 @@ export const locomotive_decades = [
       maker: "MotivePower / GE",
       service: "MBTA",
       links: ["https://youtu.be/vKfNhiMjneQ?si=jfbeOrh5_eJLHj5x"],
+      linktitles: ["Engines Of The MBTA // Episode 04 // MPI HSP-46"],
       sites: ["https://en.wikipedia.org/wiki/MBTA_HSP46"],
       origins:
         "Tier 3 commuter locomotive with GEVO prime mover, ordered for MBTA.",
@@ -601,6 +703,7 @@ export const locomotive_decades = [
       maker: "Siemens",
       service: "Amtrak, SEPTA",
       links: ["https://youtu.be/q9NokKI3wCo?si=r2Z7EIrIF3S3Te0l"],
+      linktitles: ["Engines of Amtrak - Siemens ACS-64"],
       sites: ["https://en.wikipedia.org/wiki/Siemens_ACS-64"],
       origins:
         "Electric passenger locomotive replacing Amtrak’s AEM-7s and HHP-8s.",
@@ -619,6 +722,10 @@ export const locomotive_decades = [
         "https://youtu.be/NWq55UKMlRg?si=NehvV-S4CRC5WPWc",
         "https://youtu.be/z7morELE5Vg?si=cOR6TxqvupZjJh1j",
       ],
+      linktitles: [
+        "Engines of NJ Transit ALP-45DP",
+        "Engines of NJT, Episode 2: The ALP-45DP/A",
+      ],
       sites: ["https://en.wikipedia.org/wiki/ALP-45DP"],
       origins:
         "Dual-mode locomotive allowing seamless operation between diesel and electrified territory.",
@@ -633,7 +740,14 @@ export const locomotive_decades = [
       year: 2016,
       maker: "Nippon Sharyo",
       service: "SMART, TEXRail, Union Pearson Express",
-      links: ["https://youtu.be/uhD5vjoVg7A?si=nU80YdoWSIU31xib"],
+      links: [
+        "https://youtu.be/uhD5vjoVg7A?si=nU80YdoWSIU31xib",
+        "https://www.youtube.com/watch?v=Sq2ZRTIRrZQ&t=351s",
+      ],
+      linktitles: [
+        "Nippon Sharyo DMU",
+        "SMART Commuter Train in California's San Francisco Bay Area",
+      ],
       sites: ["https://en.wikipedia.org/wiki/Nippon_Sharyo_DMU"],
       origins:
         "Diesel multiple unit built to FRA standards for U.S. commuter/regional rail.",
@@ -654,6 +768,11 @@ export const locomotive_decades = [
         "https://youtu.be/cDF3qJHeDMA?si=fR1bncfsOhHsgRmw",
         "https://youtu.be/s2mKMDE0XHE?si=LZ6QyAm2UL1gDpic",
         "https://youtu.be/dnHnNeq14-c?si=EVkydWq95oOH7yNi",
+      ],
+      linktitles: [
+        "Engines of Amtrak - Siemens Charger",
+        "Siemens SC-44 Charger Locomotives in Action",
+        "The Siemens Charger and EMD F125 - The Rolling Stock of California, Episode 7",
       ],
       sites: ["https://en.wikipedia.org/wiki/Siemens_Charger"],
       origins:
@@ -676,6 +795,12 @@ export const locomotive_decades = [
         "https://youtu.be/dnHnNeq14-c?si=EVkydWq95oOH7yNi",
         "https://youtu.be/krNVma8Jbhc?si=RkUUbDRwvNb1WBDz",
       ],
+      linktitles: [
+        "Engines of Metrolink: EMD F125 (Finale)",
+        "Engines of Metrolink - EMD F125 -",
+        "The Siemens Charger and EMD F125 - The Rolling Stock of California, Episode 7 ft",
+        "New F125 Metrolink Passenger Locomotive",
+      ],
       sites: ["https://en.wikipedia.org/wiki/EMD_F125"],
       origins:
         "Designed as a Tier-4 compliant successor to the F59/F40 family, featuring a Caterpillar C175-20 prime mover (4,700 hp) and streamlined body. Metrolink was the launch and only buyer.",
@@ -697,6 +822,12 @@ export const locomotive_decades = [
       links: [
         "https://youtu.be/6n-N_SWKF6Q?si=5zmzs9cxWq3xQr1g",
         "https://youtu.be/M5i6RhbH0FQ?si=LLFju3cWUP-5e_Qn",
+        "https://www.youtube.com/watch?v=1887APBaaGQ&t=564s",
+      ],
+      linktitles: [
+        "A Closer Look at Stadler’s New Trains for the US! | DART Flirt DMU and CalTrain Kiss EMU",
+        "Caltrain’s NEW ELECTRIC Trains",
+        "NEW Caltrain Electric Trains",
       ],
       sites: ["https://en.wikipedia.org/wiki/Stadler_KISS"],
       origins: "Electric multiple unit ordered for Caltrain electrification.",
@@ -716,6 +847,7 @@ export const locomotive_decades = [
       maker: "Siemens",
       service: "Amtrak",
       links: ["https://youtu.be/s2mKMDE0XHE?si=LZ6QyAm2UL1gDpic"],
+      linktitles: ["Siemens SC-44 Charger Locomotives in Action"],
       sites: ["https://en.wikipedia.org/wiki/Siemens_Charger"],
       origins:
         "Long-distance variant of the Charger, built for Amtrak’s national network.",
@@ -734,9 +866,13 @@ export const locomotive_decades = [
       service: "Metra (Chicago)",
       links: [
         "https://youtu.be/dWm9kUhy5no?si=ZNaQWISlhGEjxQUN",
-        "https://youtu.be/dWm9kUhy5no?si=CSqThXs0CPDQq984",
         "https://youtu.be/lZ8f4C8BAjs?si=ewL2UyfsFEhABH-S",
         "https://youtu.be/SKlSDhgPyeA?si=XhwvAu9qzis5qTvO",
+      ],
+      linktitles: [
+        "Engines Of North America: The EMD SD70Ace",
+        "BADASS New Metra Locomotives",
+        "Metra's NEW SD70MACH Inside Look + Runbys!",
       ],
       sites: [
         "https://www.trains.com/trn/news-reviews/news-wire/metra-unveils-sd70mach-locomotive/",
@@ -760,6 +896,7 @@ export const locomotive_decades = [
       maker: "Alstom",
       service: "Amtrak (NEC)",
       links: ["https://youtu.be/WH-3FsmU6KQ?si=xrDP_fBo_q0Aq21i"],
+      linktitles: ["Amtrak's Next-Generation of High-Speed Rail"],
       sites: ["https://en.wikipedia.org/wiki/Amtrak_Avelia_Liberty"],
       origins:
         "Next-generation high-speed trainset for Amtrak’s NEC, designed to replace the Acela Express.",
@@ -775,6 +912,7 @@ export const locomotive_decades = [
       maker: "Talgo",
       service: "Amtrak Cascades, Wisconsin DOT (cancelled order)",
       links: ["https://youtu.be/xCfIfFWhXJA?si=5FtRLox9LSqUHHhA"],
+      linktitles: ["Amtrak Cascades Talgo Series 8 Trains"],
       sites: ["https://en.wikipedia.org/wiki/Talgo_(train)#Series_8"],
       origins: "Updated Talgo tilting trainsets built for U.S. use.",
       serviceLife: "Used in Amtrak Cascades service until retired after 2020.",

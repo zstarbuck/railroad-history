@@ -83,12 +83,13 @@ export default function Locomotive() {
             </p>
             {locomotive.links && locomotive.links.length > 0 && (
               <div>
+                <br></br>
                 <h3>Related Videos:</h3>
                 <ul>
                   {locomotive.links.map((url, idx) => (
                     <li key={idx}>
                       <a href={url} target="_blank" rel="noopener noreferrer">
-                        Watch YouTube video {idx + 1}
+                        {locomotive.linktitles[idx]}
                       </a>
                     </li>
                   ))}
@@ -98,7 +99,7 @@ export default function Locomotive() {
                   {locomotive.sites.map((url, idx) => (
                     <li key={idx}>
                       <a href={url} target="_blank" rel="noopener noreferrer">
-                        Check out website link {idx + 1}
+                        Wikipedia article for {locomotive.model}
                       </a>
                     </li>
                   ))}
