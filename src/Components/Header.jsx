@@ -26,7 +26,7 @@ export default function Header() {
     <>
       <div id="loco-img">
         <Link to={`/`} className="title">
-          <h1>Locomotives of North America</h1>
+          <h1>Passenger Rail Locomotives of North America</h1>
         </Link>
       </div>
       <nav>
